@@ -53,7 +53,7 @@ with st.sidebar:
     st.header("⚙️ Configuration")
     selected_model = st.selectbox(
         "Choose Model",
-        ["qwen3:8b"],
+        ["qwen3:4b"],
         index=0
     )
     st.divider()
